@@ -1,0 +1,121 @@
+.dialogItem {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #edeef0;
+    position: relative;
+
+}
+
+.unreadMessages {
+    background-color:  #edeef0;
+}
+
+.dialogItem:hover {
+    cursor: pointer;
+    background-color: #edeef0;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main img {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: .9em;
+}
+
+
+.muteSvg>svg {
+    width: 17px;
+
+    height: 17px;
+    color: #bbc2c9;
+    margin-left: 5px;
+}
+
+.lastMsg {
+    margin-top: 5px;
+}
+
+.lastMsg span {
+    margin-left: 5px;
+    color: #626d7a;
+}
+
+.extraInfo {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    right: 30px;
+}
+
+.time {
+    color: #aeb5bd;
+    font-size: .8em;
+}
+
+.countMsgs {
+
+    border-radius: 20px;
+    font-size: .8em;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 30px;
+}
+
+.muted {
+    background-color: #99a2ad;
+}
+
+.unmuted {
+    background-color: #5181b8;
+}
+
+.shortContainer {
+    position: relative;
+    border-bottom: 1px solid #edeef0;
+    background-color: white;
+
+}
+
+.shortContainer:hover {
+    cursor: pointer;
+    background-color: #edeef0;
+}
+
+.shortAvatar {
+    padding: 10px;
+}
+
+.shortName {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.shortMessages {
+
+    position: absolute;
+    right:30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.shortMessages span {
+    padding: 2px 5px;
+}

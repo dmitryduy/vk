@@ -1,0 +1,30 @@
+.toggleNotifications {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: calc(550px - 2px)    ;
+    bottom: 0;
+    border-top: 1px solid #dce1e6;
+    background-color: white;
+    position: fixed;
+}
+
+.toggleNotifications span{
+    font-size: .8em;
+    color: #2a5885;
+}
+
+.toggleNotifications span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.toggleNotifications svg {
+    color: #b8bec6;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}

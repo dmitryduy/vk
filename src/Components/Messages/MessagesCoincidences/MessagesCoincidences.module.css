@@ -1,0 +1,30 @@
+
+
+.foundMessages {
+    position: fixed;
+    background-color: white;
+    height: 40px;
+    width: calc(550px - 2px);
+    z-index: 1;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 1px solid #edeef0;
+    border-top: 1px solid #edeef0;
+    color: #2e5b87;
+    text-align: center;
+    font-weight: bold;
+    font-size: .8em;
+
+}
+.foundMessages:hover {
+    cursor: pointer;
+    background-color: #edeef0;
+}
+
+.chats {
+    padding: 55px 15px 15px;
+    background-color: white;
+    font-size: .8em;
+    font-weight: bold;
+
+}

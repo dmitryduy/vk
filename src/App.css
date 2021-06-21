@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #edeef0;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    z-index: -100;
+}
+
+.content {
+    position: relative;
+    left: 200px;
+    width: calc(1000px - 200px);
+}

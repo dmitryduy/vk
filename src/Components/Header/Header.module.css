@@ -1,0 +1,104 @@
+.header {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    height: 50px;
+    align-items: center;
+    position: relative;
+}
+
+.headerWrapper {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.logoWrapper {
+    width: 200px;
+}
+
+.musicIcon, .notificationsIcon {
+    margin-left: 30px;
+    padding: 0 10px;
+    display: flex;
+    color: #edeef0;
+    height: 50px;
+    width: 40px;
+}
+
+
+.musicIcon:hover, .notificationsIcon:hover {
+    background-color: #edeef0;
+    cursor: pointer;
+}
+
+.searchWrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.search {
+    position: relative;
+
+}
+
+.searchIconClass {
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+.searchIconClass svg {
+    color: #8a94a0;
+}
+
+.searchInput {
+    height: 32px;
+    border: none;
+    outline: none;
+    width: 250px;
+    background-color: #edeef0;
+    border-radius: 7px;
+    padding-left: 35px;
+}
+
+.profileLink {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+.profileLink:hover {
+    background-color: #edeef0;
+    cursor: pointer;
+}
+
+.profileLink:focus {
+    background-color: #edeef0;
+}
+
+.profileName{
+    font-weight: bold;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.profileImg {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.profileLink svg {
+    margin-right: 10px;
+}

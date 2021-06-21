@@ -1,0 +1,67 @@
+
+.br {
+    height: 1px;
+    margin: 0 10px;
+    background-color: #dce1e6;
+    margin: 5px 0;
+}
+
+.item {
+    padding: 10px;
+    width: 100%;
+}
+
+.item:hover {
+    background-color: #edeef0;
+}
+.enable {
+    display: flex;
+    flex-direction: column;
+}
+
+.disable {
+    display: none;
+}
+
+.hiddenSettings {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 150%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);;
+    border: 1px solid #d3d9de;
+    padding-top: 5px;
+    font-size: 0.8em;
+    background-color: white;
+
+}
+
+.profileInfo {
+    display: flex;
+
+
+}
+.profileInfo img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.name {
+    color: #2a5885;
+}
+
+.vkConnect {
+    color: #626d7a;
+}
+
+
+.signout {
+    margin-bottom: 5px;
+}
